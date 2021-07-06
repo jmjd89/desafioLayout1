@@ -1,0 +1,47 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-header{
+    width: 100vw;
+    height: 15vh;
+}
+
+.main-header .main-logo{
+    display: inline-block;
+    width: 30vw;
+}
+
+.main-header .main-encabezado{
+    display: inline-block;
+    width: 20vw;
+}
+
+.main-header .main-nav{
+    display: inline-block;
+}
+
+.main-nav ul{
+    text-align: right;
+}
+
+.main-nav li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+aside{
+    display: inline-block;
+    width: 30vw;
+}
+
+main{
+    display: inline-block;
+    width: 70vw;
+}
